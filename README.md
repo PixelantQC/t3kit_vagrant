@@ -28,7 +28,7 @@
 * Stop vagrant VM
 `vagrant halt`
 
-* Delete the vagrant VM
+* Delete the vagran VM
 `vagrant destroy`
 
 * Check status of vagrant VM
