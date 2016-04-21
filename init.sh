@@ -18,6 +18,6 @@ if [ ! -d .git ]; then
     git clone https://github.com/PixelantQC/t3kit-1.git .
     git submodule update --init --recursive
 fi;
-cd TYPO3.CMS
-composer install
-cd ../../..
+#cd TYPO3.CMS
+#composer install
+#cd ../../..
