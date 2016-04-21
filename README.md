@@ -116,7 +116,7 @@ Please use semantic labels for your messages, but if commit message is not very 
 * **[UPDATE]** Updating git submodules, npm/bower dependencies
 
 
-Please ensure any pull requests of fixes **follow this closely**. If you notice existing code which doesn't follow these practices, feel free to shout and we will address this.
+Please ensu any pull requests of fixes **follow this closely**. If you notice existing code which doesn't follow these practices, feel free to shout and we will address this.
 
 ***
 
