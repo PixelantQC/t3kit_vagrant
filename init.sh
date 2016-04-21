@@ -15,7 +15,7 @@ if [ ! -d "site" ]; then
 fi
 cd site
 if [ ! -d .git ]; then
-    git clone https://github.com/PixelantQC/t3kit-1.git .
+    git clone https://github.com/t3kit/t3kit.git .
     git submodule update --init --recursive
 fi;
 cd TYPO3.CMS
