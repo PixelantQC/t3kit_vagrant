@@ -1,0 +1,13 @@
+@@ set
+  home_url http://localhost:8081
+
+@@ table devices
+    | deviceName | tags      | size      |
+    #| Mobile     | mobile    | 360x640   |
+    #| Tablet     | tablet    | 768x1024  |
+    | Desktop    | desktop   | 1280x1024 |
+
+@@ parameterized using devices
+Logo Section on ${deviceName}
+    ${home_url} ${size}
+        check specs/test.gspec

@@ -1,0 +1,11 @@
+@objects
+    # Meta Menu Bar
+    header-top                  css      .header-top-wrp
+
+    # Middle Header Section
+    header-middle               css      .header-middle-wrp
+
+= Main section =
+    # Check Middle Menu
+    header-middle:
+        below header-top
