@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
     config.vm.box_check_update = true
 
     config.vm.network "private_network", ip: "192.168.3.3"
-    config.vm.synced_folder "./shared", "/var/www/shared", type: "nfs"
+    config.vm.synced_folder "./shared", "/var/www/shared"
 
     # Disable default shared folder
     config.vm.synced_folder ".", "/vagrant", disabled: true
